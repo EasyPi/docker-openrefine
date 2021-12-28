@@ -1,7 +1,9 @@
 OpenRefine
 ==========
 
-![](https://badge.imagelayers.io/vimagick/openrefine:latest.svg)
+[![](https://github.com/easypi/docker-openrefine/actions/workflows/build.yaml/badge.svg)](https://github.com/EasyPi/docker-openrefine)
+
+[![](http://dockeri.co/image/easypi/openrefine)](https://hub.docker.com/r/easypi/openrefine)
 
 [OpenRefine][1] (formerly Google Refine) is a powerful tool for working with messy
 data: cleaning it; transforming it from one format into another; and extending
