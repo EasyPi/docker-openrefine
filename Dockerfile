@@ -13,7 +13,7 @@ WORKDIR /opt/openrefine
 
 RUN set -xe \
  && apt update \
- && apt install -y curl \
+ && apt install -y curl procps \
  && curl -sSL ${OPENREFINE_URL} | tar xz --strip 1 \
  && rm -rf /var/lib/apt/lists/*
 
