@@ -11,4 +11,5 @@ services:
       - REFINE_PORT=3333
       - REFINE_MEMORY=1024M
       - REFINE_DATA_DIR=/data
+      - REFINE_EXTRA_OPTS=refine.headless=true
     restart: unless-stopped
