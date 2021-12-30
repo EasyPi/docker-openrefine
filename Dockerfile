@@ -2,7 +2,7 @@
 # Dockerfile for openrefine
 #
 
-FROM openjdk:17-bullseye
+FROM openjdk:17-slim-bullseye
 MAINTAINER EasyPi Software Foundation
 
 ENV OPENREFINE_VERSION=3.5.1
