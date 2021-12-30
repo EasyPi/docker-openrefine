@@ -11,7 +11,11 @@ ENV OPENREFINE_URL=https://github.com/OpenRefine/OpenRefine/releases/download/${
 
 WORKDIR /opt/openrefine
 
-RUN curl -sSL ${OPENREFINE_URL} | tar xz --strip 1
+RUN set -xe \
+ && apt update \
+ && apt install -y curl \
+ && curl -sSL ${OPENREFINE_URL} | tar xz --strip 1 \
+ && rm -rf /var/lib/apt/lists/*
 
 VOLUME /data
 WORKDIR /data
