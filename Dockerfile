@@ -5,7 +5,8 @@
 FROM openjdk:17-slim-bullseye
 MAINTAINER EasyPi Software Foundation
 
-ENV OPENREFINE_VERSION=3.5.1
+ARG OPENREFINE_VERSION
+
 ENV OPENREFINE_FILE=openrefine-linux-${OPENREFINE_VERSION}.tar.gz
 ENV OPENREFINE_URL=https://github.com/OpenRefine/OpenRefine/releases/download/${OPENREFINE_VERSION}/${OPENREFINE_FILE}
 
