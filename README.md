@@ -25,6 +25,7 @@ services:
     environment:
       - REFINE_INTERFACE=0.0.0.0
       - REFINE_PORT=3333
+      - REFINE_MIN_MEMORY=1024M
       - REFINE_MEMORY=1024M
       - REFINE_DATA_DIR=/data
       - REFINE_EXTRA_OPTS=refine.headless=true
