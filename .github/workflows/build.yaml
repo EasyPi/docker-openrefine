@@ -10,7 +10,7 @@ on:
 
 env:
   IMAGE_NAME: 'easypi/openrefine'
-  OPENREFINE_VERSION: '3.7.0'
+  OPENREFINE_VERSION: '3.7.1'
 
 jobs:
   release:
