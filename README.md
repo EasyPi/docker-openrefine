@@ -3,7 +3,7 @@ OpenRefine
 
 [![](https://github.com/easypi/docker-openrefine/actions/workflows/build.yaml/badge.svg)](https://github.com/EasyPi/docker-openrefine)
 
-[![](http://dockeri.co/image/easypi/openrefine)](https://hub.docker.com/r/easypi/openrefine)
+[![](http://dockeri.co/image/vimagick/openrefine)](https://hub.docker.com/r/vimagick/openrefine)
 
 [OpenRefine][1] (formerly Google Refine) is a powerful tool for working with messy
 data: cleaning it; transforming it from one format into another; and extending
@@ -17,7 +17,7 @@ Please read the [wiki][2] to learn more.
 version: "3.8"
 services:
   openrefine:
-    image: easypi/openrefine
+    image: vimagick/openrefine
     ports:
       - "3333:3333"
     volumes:
