@@ -6,7 +6,8 @@ FROM openjdk:17-slim-bullseye
 MAINTAINER EasyPi Software Foundation
 
 ARG OPENREFINE_VERSION
-ARG OPENREFINE_URL=https://github.com/OpenRefine/OpenRefine/releases/download/${OPENREFINE_VERSION}/openrefine-linux-${OPENREFINE_VERSION}.tar.gz
+ARG OPENREFINE_FILE=openrefine-linux-${OPENREFINE_VERSION:?}.tar.gz
+ARG OPENREFINE_URL=https://github.com/OpenRefine/OpenRefine/releases/download/${OPENREFINE_VERSION}/${OPENREFINE_FILE}
 
 RUN set -xe \
  && apt update \
