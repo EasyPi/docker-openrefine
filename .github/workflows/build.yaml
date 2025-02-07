@@ -11,7 +11,7 @@ on:
 env:
   PLATFORMS: 'linux/amd64,linux/arm64'
   IMAGE_NAME: 'easypi/openrefine'
-  OPENREFINE_VERSION: '3.8.5'
+  OPENREFINE_VERSION: '3.8.7'
 
 jobs:
   release:
