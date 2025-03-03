@@ -14,10 +14,9 @@ Please read the [wiki][2] to learn more.
 ### docker-compose.yml
 
 ```yaml
-version: "3.8"
 services:
   openrefine:
-    image: easypi/openrefine
+    image: easypi/openrefine:3.9.0
     ports:
       - "3333:3333"
     volumes:
@@ -32,5 +31,14 @@ services:
     restart: unless-stopped
 ```
 
+### install extensions
+
+- Locate your workspace directory: ./data
+- Create a new folder called `extensions` inside the workspace if it does not exist.
+- Download the extension (usually as a zip file from GitHub, e.g., [openrefine-llm-extension][3])
+- Extract the zip contents into the `extensions` directory, making sure all the contents go into one folder with the name of the extension.
+- Start (or restart) OpenRefine.
+
 [1]: http://openrefine.org/index.html
 [2]: https://github.com/OpenRefine/OpenRefine/wiki
+[3]: https://github.com/sunilnatraj/llm-extension/releases

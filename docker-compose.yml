@@ -1,7 +1,6 @@
-version: "3.8"
 services:
   openrefine:
-    image: easypi/openrefine
+    image: easypi/openrefine:3.9.0
     ports:
       - "3333:3333"
     volumes:
