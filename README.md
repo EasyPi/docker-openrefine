@@ -16,7 +16,7 @@ Please read the [wiki][2] to learn more.
 ```yaml
 services:
   openrefine:
-    image: easypi/openrefine:3.9.0
+    image: easypi/openrefine:3.9.1
     ports:
       - "3333:3333"
     volumes:
