@@ -2,7 +2,7 @@
 # Dockerfile for openrefine
 #
 
-FROM mcr.microsoft.com/openjdk/jdk:21-ubuntu
+FROM mcr.microsoft.com/openjdk/jdk:25-ubuntu
 MAINTAINER EasyPi Software Foundation
 
 ARG OPENREFINE_VERSION
