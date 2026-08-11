@@ -26,5 +26,5 @@ $ curl http://localhost:8000/reconcile?query={%22query%22:%22kev%22,%22limit%22:
 $ curl http://localhost:8000/view/1
 ```
 
-[1]: http://okfnlabs.org/reconcile-csv/
+[1]: https://github.com/rufuspollock-okfn/reconcile-csv
 [2]: https://github.com/OpenRefine/OpenRefine/wiki

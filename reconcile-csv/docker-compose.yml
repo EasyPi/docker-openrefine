@@ -1,4 +1,3 @@
-version: "3.8"
 services:
   reconcile-csv:
     image: vimagick/openrefine-reconcile-csv
