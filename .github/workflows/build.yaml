@@ -5,10 +5,11 @@ on:
   push:
     branches:
       - master
-    paths-ignore:
-      - README.md
+    paths:
+      - Dockerfile
 
 env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
   DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
   SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
