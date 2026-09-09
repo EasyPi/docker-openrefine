@@ -1,9 +1,9 @@
 OpenRefine
 ==========
 
-[![](https://github.com/easypi/docker-openrefine/actions/workflows/build.yaml/badge.svg)](https://github.com/EasyPi/docker-openrefine)
-
-[![](http://dockeri.co/image/easypi/openrefine)](https://hub.docker.com/r/easypi/openrefine)
+[![Github CI](https://github.com/easypi/docker-openrefine/actions/workflows/build.yaml/badge.svg)](https://github.com/EasyPi/docker-openrefine)
+[![Stars Rust](https://img.shields.io/docker/stars/easypi/openrefine?label=Docker-Stars)](https://hub.docker.com/r/easypi/openrefine)
+[![OpenRefine](https://img.shields.io/github/release/OpenRefine/OpenRefine.svg?label=OpenRefine)](https://github.com/OpenRefine/OpenRefine)
 
 [OpenRefine][1] (formerly Google Refine) is a powerful tool for working with messy
 data: cleaning it; transforming it from one format into another; and extending
@@ -31,7 +31,7 @@ services:
     restart: unless-stopped
 ```
 
-### install extensions
+### Install extensions
 
 - Locate your workspace directory: ./data
 - Create a new folder called `extensions` inside the workspace if it does not exist.
