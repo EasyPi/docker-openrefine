@@ -1,9 +1,9 @@
 OpenRefine
 ==========
 
-[![Github CI](https://github.com/easypi/docker-openrefine/actions/workflows/build.yaml/badge.svg)](https://github.com/EasyPi/docker-openrefine)
-[![Stars Rust](https://img.shields.io/docker/stars/easypi/openrefine?label=Docker-Stars)](https://hub.docker.com/r/easypi/openrefine)
-[![OpenRefine](https://img.shields.io/github/release/OpenRefine/OpenRefine.svg?label=OpenRefine)](https://github.com/OpenRefine/OpenRefine)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/easypi/docker-openrefine/build.yaml?logo=github)](https://github.com/EasyPi/docker-openrefine)
+[![Docker Image Version](https://img.shields.io/docker/v/easypi/openrefine?logo=docker&label=easypi%2Fopenrefine)](https://hub.docker.com/r/easypi/openrefine)
+[![OpenRefine](https://img.shields.io/github/release/OpenRefine/OpenRefine.svg?logo=github&label=OpenRefine)](https://github.com/OpenRefine/OpenRefine)
 
 [OpenRefine][1] (formerly Google Refine) is a powerful tool for working with messy
 data: cleaning it; transforming it from one format into another; and extending
